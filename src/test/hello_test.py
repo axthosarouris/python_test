@@ -8,7 +8,7 @@ class HelloTest(unittest.TestCase):
     @staticmethod
     def test_should_return_hello_test():
         hello = Hello()
-        assert_that(hello.hello()).is_equal_to("Hello worldddddddd")
+        assert_that(hello.hello()).is_equal_to("Hello world")
 
 
 if __name__ == '__main__':
